@@ -1,0 +1,40 @@
+
+.aboutMe p
+{
+    /* color: white; */
+    font-family: 'Hind', sans-serif;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+.aboutMe a
+{
+    text-align: center;
+}
+
+.skills
+{
+    text-align: center;
+}
+
+.skills img
+{
+    display: inline-block;
+    width: 19% ; 
+    margin: 0%;
+    padding: 1%; 
+}
+
+@media (max-width: 760px)
+{
+    .skills img
+    {
+        display: block;
+        width: 50% ; 
+        margin: auto;
+        padding: 1%; 
+    }   
+}
+
+
+
